@@ -5,7 +5,7 @@ A Python command-line tool that converts multiple image files—including HEIC p
 ## Features
 
 - **Batch Conversion:** Convert multiple images at once using wildcard search patterns.
-  - Example: `main.py <target size> <image_path>/IMG_*`
+  - Example: `python main.py <target size> <image_path>/IMG_*`
 
 - **Automatic Orientation Handling:** Supports both landscape and portrait orientations automatically.  
   - Example: `main.py 2016x1512 <image_path>/IMG_*`  
