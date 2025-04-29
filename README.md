@@ -8,7 +8,7 @@ A Python command-line tool that converts multiple image files—including HEIC p
   - Example: `python main.py <target size> <image_path>/IMG_*`
 
 - **Automatic Orientation Handling:** Supports both landscape and portrait orientations automatically.  
-  - Example: `main.py 2016x1512 <image_path>/IMG_*`  
+  - Example: `python main.py 2016x1512 <image_path>/IMG_*`  
     Portrait images will resize to `1512x2016`, while landscape images resize to `2016x1512`.
 
 - **HEIC Support:** Accepts and converts HEIC images (such as those from iPhones).
